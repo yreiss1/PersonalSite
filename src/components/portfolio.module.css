@@ -1,0 +1,17 @@
+.background {
+  align-items: center;
+  text-align: center;
+  margin: 50px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 46px;
+  padding-bottom: 50px;
+}
+
+.subtitle {
+  font-weight: 600;
+  font-size: 30px;
+  padding-bottom: 50px;
+}

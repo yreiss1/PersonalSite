@@ -1,0 +1,19 @@
+.background {
+  background-color: #1be7ff;
+  height: 75px;
+}
+
+.row {
+  height: 100%;
+
+  display: flex;
+  margin-left: 15%;
+  margin-right: 15%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.text {
+  text-align: center;
+  color: white;
+}

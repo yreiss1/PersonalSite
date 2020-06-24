@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family=H&display=swap");
+
+.row {
+  margin-bottom: 100px;
+  display: flex;
+  margin-left: 12%;
+  margin-right: 12%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.col {
+  flex: 50%;
+  float: left;
+
+  text-align: left;
+}
+
+.container {
+  border-radius: 50px;
+  height: 300px;
+  width: 360px;
+  border: 1px solid black;
+  margin-right: 60px;
+  position: relative;
+
+  align-items: center; /* For vertical align */
+  display: flex;
+}
+
+.img {
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+
+  max-width: 100%;
+  max-height: 100%;
+  width: 90%;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.subtitle {
+  font-size: 20px;
+  color: #247ba0;
+}

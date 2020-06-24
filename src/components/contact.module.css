@@ -1,0 +1,48 @@
+.body {
+  background-color: #247ba0;
+  height: 400px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-weight: bold;
+  color: white;
+  font-size: 46px;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+.subtitle {
+  color: white;
+  font-size: 24px;
+  padding-bottom: 50px;
+}
+
+.input {
+  margin: 0 0.25rem;
+  height: 40px;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+.subject {
+  height: 40px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 35%;
+}
+
+.message {
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 35%;
+}
+
+.row {
+  justify-content: center;
+  margin-bottom: 10px;
+  width: 35%;
+}
