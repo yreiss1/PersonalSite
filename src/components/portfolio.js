@@ -6,7 +6,6 @@ import maryland from "../assets/maryland.png"
 import hughes from "../assets/hughes.png"
 import capone from "../assets/capone.png"
 import higherLogic from "../assets/higherlogic.png"
-import { Card, Container, Row, Button, Col } from "react-bootstrap"
 export default function Portfolio() {
   return (
     <div className={styles.background}>

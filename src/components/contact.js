@@ -2,11 +2,6 @@ import React from "react"
 import styles from "./contact.module.css"
 class Contact extends React.Component {
   render() {
-    const buttonsStyle = {
-      margin: "1rem",
-      textAlign: "center",
-    }
-
     return (
       <div className={styles.body}>
         <div className={styles.title}>Contact Me</div>
