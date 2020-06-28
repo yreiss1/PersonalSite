@@ -22,6 +22,18 @@ module.exports = {
         // exitEventName: "sal:out", // Exit event name
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Yuval Reiss's Site`,
+        short_name: `YR Site`,
+        start_url: `/`,
+        background_color: `#f7f0eb`,
+        theme_color: `#a2466c`,
+        display: `standalone`,
+        icon: "src/assets/favicon_io/android-chrome-512x512.png",
+      },
+    },
     // {
     //   resolve: `gatsby-plugin-typography`,
     //   options: {
