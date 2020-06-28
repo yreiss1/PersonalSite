@@ -1,6 +1,7 @@
 import React from "react"
 import heroStyles from "./hero.module.css"
 import hero from "../assets/hero.jpeg"
+import typography from "../utils/typography.js"
 
 export default function Hero() {
   return (
