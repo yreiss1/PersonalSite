@@ -5,8 +5,17 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    title: "Yuval Reiss's Personal Site",
+    titleTemplate: "%s · The Real Hero",
+
+    description: "Yuval Reiss's Personal Site",
+    url: "www.yuvalreiss.com", // No trailing slash allowed!
+    image: "hero.jpeg", // Path to your image you placed in the 'static' folder
+  },
   /* Your site config here */
   plugins: [
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-scroll-reveal`,
       options: {

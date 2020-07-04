@@ -21,3 +21,16 @@
   height: 100%;
   border-radius: 50px;
 }
+
+.popup {
+  height: 20px;
+  width: 25px;
+}
+
+.badgeRow {
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+  flex-direction: row;
+  justify-content: space-around;
+}

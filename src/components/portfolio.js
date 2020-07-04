@@ -28,7 +28,7 @@ export default function Portfolio() {
         text={
           "Responsible for rewriting and migrating the Payments API within the Capital One’s iOS app. Recognized for successfully refactoring code to increase scalability and testability. Wrote the payment DELETE Cloud API, which allows users to cancel scheduled payments. Participated in designing API and Coordinator interface to handle all payment network requests in an efficient, scalable, and testable manner."
         }
-        subtitle={"Software Engineer Intern, "}
+        subtitle={"Software Engineering Intern, "}
         title={"Capital One"}
         date={"June 2019 - August 2019"}
         img={capone}
@@ -46,7 +46,7 @@ export default function Portfolio() {
         text={
           "Developed personalized internal dashboards for various departments using Javascript, the .NET Framework, and various API’s. Developed testing suites to optimize run times for the testing builds. Wrote automated tests that assessed various aspects of the product. Developed an evaluation method to assess program strengths and identify areas for improvement. Managed the implementation and testing of software projects to the production environment. Defined test automation framework based on assessments from current testing processes and resources."
         }
-        subtitle={"Software Engineer Intern, "}
+        subtitle={"Software Engineering Intern, "}
         title={"Higher Logic"}
         date={"June 2018 - August 2018"}
         img={higherLogic}
@@ -55,7 +55,7 @@ export default function Portfolio() {
         text={
           "Led implementation of an internal dashboard application, which streamlines real-time data having to do with the clients’ network operations and security. Monitored the network and key information technology resources for evidence of any suspicious activity. Obtained a working knowledge of monitoring Global Network Intrusion Detections Systems, Firewalls, and Log Correlation Tools for potential threats. Administered network security-related technologies, such as vulnerability management and monitoring systems."
         }
-        subtitle={"Software Engineer Intern, "}
+        subtitle={"Software Engineering Intern, "}
         date={"June 2017 - May 2018"}
         title={"Hughes Echostar"}
         img={hughes}
