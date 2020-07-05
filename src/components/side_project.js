@@ -20,7 +20,7 @@ export default function SideProject() {
           </div>
         }
       >
-        <h1>Helping Hands</h1>
+        <h1>Helpful Hands</h1>
         <br></br>
         <p>
           During the the difficult brought on by the Covid-19 epidemic, Helping

@@ -17,7 +17,7 @@
 
 .subtitle {
   color: white;
-  font-size: 24px;
+  font-size: 22px;
   padding-bottom: 50px;
 }
 
@@ -45,4 +45,18 @@
   justify-content: center;
   margin-bottom: 10px;
   width: 35%;
+}
+
+.linksRow {
+  background-color: white;
+  margin-bottom: 70px;
+  align-items: center;
+  height: 250px;
+  border-radius: 50px;
+  display: flex;
+  margin-left: 35%;
+  margin-right: 35%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
