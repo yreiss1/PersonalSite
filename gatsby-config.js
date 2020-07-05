@@ -11,7 +11,7 @@ module.exports = {
 
     description: "Yuval Reiss's Personal Site",
     url: "www.yuvalreiss.com", // No trailing slash allowed!
-    image: "hero.jpeg", // Path to your image you placed in the 'static' folder
+    image: "../src/assets/hero.jpeg", // Path to your image you placed in the 'static' folder
   },
   /* Your site config here */
   plugins: [
