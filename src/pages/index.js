@@ -5,27 +5,38 @@ import Portfolio from "../components/portfolio.js"
 import Contact from "../components/contact.js"
 import Footer from "../components/footer.js"
 import Scrollspy from "react-scrollspy"
+import { Helmet } from "react-helmet"
 
 export default function Home() {
   return (
-    <div>
-      <Scrollspy items={["about", "portfolio", "contact"]}>
-        <Hero />
-        <section id="about">
-          {" "}
-          <About />
-        </section>
+    <main>
+      <Helmet>
+        <html lang="en" />
+        <title>Yuval Reiss's Site</title>
+        <description>
+          Just a developer who passionate about education and rock and roll
+        </description>
+      </Helmet>
 
-        <section id="portfolio">
-          {" "}
-          <Portfolio />
-        </section>
-        <section id="contact">
-          {" "}
-          <Contact />
-        </section>
-        <Footer />
-      </Scrollspy>
-    </div>
+      <div>
+        <Scrollspy items={["about", "portfolio", "contact"]}>
+          <Hero />
+          <section id="about">
+            {" "}
+            <About />
+          </section>
+
+          <section id="portfolio">
+            {" "}
+            <Portfolio />
+          </section>
+          <section id="contact">
+            {" "}
+            <Contact />
+          </section>
+          <Footer />
+        </Scrollspy>
+      </div>
+    </main>
   )
 }

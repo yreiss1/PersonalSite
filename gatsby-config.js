@@ -11,7 +11,7 @@ module.exports = {
 
     description: "Yuval Reiss's Personal Site",
     url: "www.yuvalreiss.com", // No trailing slash allowed!
-    image: "../src/assets/hero.jpeg", // Path to your image you placed in the 'static' folder
+    image: "src/assets/hero.jpeg", // Path to your image you placed in the 'static' folder
   },
   /* Your site config here */
   plugins: [
@@ -43,11 +43,15 @@ module.exports = {
         icon: "src/assets/favicon_io/android-chrome-512x512.png",
       },
     },
-    // {
-    //   resolve: `gatsby-plugin-typography`,
-    //   options: {
-    //     pathToConfigModule: `src/utils/typography`,
-    //   },
-    // },
+
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `assets`,
+        path: `${__dirname}/src/assets/`,
+      },
+    },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
   ],
 }
