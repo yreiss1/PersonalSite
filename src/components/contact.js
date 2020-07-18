@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "./contact.module.css"
+import styles from "../styles/contact.module.css"
 import { SocialIcon } from "react-social-icons"
 
 class Contact extends React.Component {
@@ -8,7 +8,7 @@ class Contact extends React.Component {
       <div className={styles.body}>
         <div className={styles.title}>Contact Me</div>
         <div className={styles.subtitle}>
-          Feel free to get in touch with any method below!
+        Feel free to reach out if you're interested in working together or just to say hello!
         </div>
         <div className={styles.linksRow}>
           <SocialIcon

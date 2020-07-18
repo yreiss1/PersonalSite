@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "./portfolio.module.css"
+import styles from "../styles/portfolio.module.css"
 import SideProject from "./side_project.js"
 import Experience from "./experience.js"
 import maryland from "../assets/maryland.png"
@@ -17,7 +17,7 @@ export default function Portfolio() {
       <div className={styles.subtitle}>Work/Education</div>
       <Experience
         text={
-          "As a graduate student at the University of Maryland I got to expand and continue all the things I loved. Along with taking advanced Computer Science courses, I joined the Computer Science Department's Human Computer Interaction (HCI) lab, and led a research project focused on building different translational technologies and testing their viability in different use cases. I represented the Computer Science (CS) Graduate student body as a member of the CS department's educational comittee and became the head teachers assistance overseeing around 30 teachers assistants each semester."
+          "As a recent graduate student at the University of Maryland I got to expand and continue all the things I loved in my Bachelor’s studies. Along with taking advanced Computer Science courses, I joined the Computer Science Department's Human Computer Interaction (HCI) lab, and led a research project focused on building different translational technologies and testing their viability in different use cases. I represented the Computer Science (CS) Graduate student body as a member of the CS department's educational comittee and became the head teachers assistance overseeing approximately 30 teachers assistants each semester, the largest class at the University of Maryland, Introduction to Object Orienting Programming (CMSC 131)."
         }
         subtitle={"Masters in Computer Science, "}
         title={"University of Maryland"}
@@ -35,7 +35,7 @@ export default function Portfolio() {
       ></Experience>
       <Experience
         text={
-          "The University of Maryland presented me with an unprecedented scale and diversity of opportunities, I was able to grow as an educator through my years as a teachers assistant in the Computer Science department and as an instructor in the Universities AAP Program. I found many ways to satisfy my need to create and build as a manager at the Sandbox, the largest student run makerspace on campus and as a participant, organizer, and occasional winner of University hackathons. I was able to grow as a leader and a better speaker as an ambassador of the Computer Science department, and of the college."
+          "The University of Maryland presented me with an unprecedented scale and diversity of opportunities. I was able to grow as an educator through my years as a teachers assistant in the Computer Science department and as an instructor in the University's AAP Program. I found many ways to satisfy my need to create and build as a manager at the Sandbox, the largest student run makerspace on campus and as a participant, organizer, and occasional winner of University hackathons. I was able to grow as a leader and improve my speaking abilities as the lead student ambassador of the Computer Science department and of the College of Computer, Math and Natural Sciences (CMNS)."
         }
         subtitle={"B.S in Computer Science, "}
         title={"University of Maryland"}
@@ -53,7 +53,7 @@ export default function Portfolio() {
       ></Experience>
       <Experience
         text={
-          "Led implementation of an internal dashboard application, which streamlines real-time data having to do with the clients’ network operations and security. Monitored the network and key information technology resources for evidence of any suspicious activity. Obtained a working knowledge of monitoring Global Network Intrusion Detections Systems, Firewalls, and Log Correlation Tools for potential threats. Administered network security-related technologies, such as vulnerability management and monitoring systems."
+          "Led implementation of an internal dashboard application, which streamlines real-time data having of clients’ network operations and security. Monitored the network and key information technology resources for evidence of any suspicious activity. Obtained a working knowledge of monitoring Global Network Intrusion Detections Systems, Firewalls, and Log Correlation Tools for potential threats. Administered network security-related technologies, such as vulnerability management and monitoring systems."
         }
         subtitle={"Software Engineering Intern, "}
         date={"June 2017 - May 2018"}

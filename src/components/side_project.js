@@ -1,14 +1,15 @@
 import React from "react"
-import styles from "./side_project.module.css"
+import styles from "../styles/side_project.module.css"
 import helpfulHands from "../assets/helpful_hands.png"
 import bandmates from "../assets/bandmates.png"
+import altfor from "../assets/altfor.png"
 import Popup from "reactjs-popup"
 
 export default function SideProject() {
   return (
     <div className={styles.row}>
       <Popup
-        contentStyle={{ width: "350px", height: "300px", borderRadius: "25px" }}
+        contentStyle={{ width: "350px",  borderRadius: "25px" }}
         on="hover"
         trigger={
           <div className={styles.container}>
@@ -23,10 +24,7 @@ export default function SideProject() {
         <h1>Helpful Hands</h1>
         <br></br>
         <p>
-          During the the difficult brought on by the Covid-19 epidemic, Helping
-          Hands seeks to connect those who bare a higher risk of contracting
-          Covid-19 with those willing to volunteer to help keep those who are
-          most vulnerable safe at home.
+        During the difficult time brought on by the Covid-19 epidemic, Helping Hands seeks to connect those who bare a higher risk of contracting Covid-19 with those willing to volunteer to help keep those who are most vulnerable safe at home.
         </p>
         <br></br>
 
@@ -55,7 +53,7 @@ export default function SideProject() {
         </div>
       </Popup>
       <Popup
-        contentStyle={{ width: "350px", height: "300px", borderRadius: "25px" }}
+        contentStyle={{ width: "350px", borderRadius: "25px" }}
         on="hover"
         trigger={
           <div className={styles.container}>
@@ -66,9 +64,7 @@ export default function SideProject() {
         <h1>Bandmates</h1>
         <br></br>
         <p>
-          Music is always better when shared, Bandmates is an app that hopes to
-          embolden local music scenes around the globe by helping musicans to
-          connect to other musicians locally in order to foster collaboration.
+        Music is always better when shared. Bandmates is an app that hopes to embolden local music scenes around the globe by helping local musicians connect and collaborate.
         </p>
         <br></br>
 
@@ -78,11 +74,17 @@ export default function SideProject() {
         on="hover"
         trigger={
           <div className={styles.container}>
-            <p>Coming soon</p>
+                        <img src={altfor} alt="Altfor" className={styles.img}></img>
+
           </div>
         }
       >
-        <div>Whats up?</div>
+        <h1>Altfor</h1>
+        <br></br>
+        <p>
+          Coming soon
+        </p>
+        <br></br>
       </Popup>
     </div>
   )

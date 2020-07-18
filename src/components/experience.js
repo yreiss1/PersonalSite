@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "./experience.module.css"
+import styles from "../styles/experience.module.css"
 
 export default function Experience({ text, subtitle, title, img, date }) {
   return (

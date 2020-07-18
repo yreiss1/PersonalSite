@@ -1,5 +1,5 @@
 import React from "react"
-import heroStyles from "./hero.module.css"
+import heroStyles from "../styles/hero.module.css"
 import hero from "../assets/hero.jpeg"
 import typography from "../utils/typography.js"
 
