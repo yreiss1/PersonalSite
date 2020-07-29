@@ -13,6 +13,9 @@ export default function Hero() {
         <a href="#portfolio" className={heroStyles.navlinks}>
           Portfolio
         </a>
+        <a href="#news" className={heroStyles.navlinks}>
+          News
+        </a>
         <a href="#contact" className={heroStyles.navlinks}>
           Contact
         </a>

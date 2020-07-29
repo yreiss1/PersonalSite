@@ -1,6 +1,8 @@
 import React from "react"
 import styles from "../styles/portfolio.module.css"
 import SideProject from "./side_project.js"
+import helpfulHands from "../assets/helpful_hands.png"
+import altfor from "../assets/altfor.png"
 import Experience from "./experience.js"
 import maryland from "../assets/maryland.png"
 import hughes from "../assets/hughes.png"
@@ -9,12 +11,19 @@ import higherLogic from "../assets/higherlogic.png"
 export default function Portfolio() {
   return (
     <div className={styles.background}>
-      <div className={styles.title}>Portfolio</div>
+      <div className={styles.title}>Work/Education</div>
 
-      <div className={styles.subtitle}>Side Projects</div>
-      <SideProject></SideProject>
+      {/* <div className={styles.subtitle}>Side Projects</div>
+      <SideProject></SideProject> */}
 
-      <div className={styles.subtitle}>Work/Education</div>
+      <br/>
+      <br></br>
+
+
+      <Experience text={"Helpful Hands is a mobile application that seeks to help during the Covid-19 pandemic by connecting those who are too sick or too vulnerableto leave their house with volunteers willing to fulfill tasks such as shopping for food or medicine. Built with Googles' Flutter mobile application framework which utilizes the Dart programming language and designed with modern UI/UX practices."} subtitle={"Co-Developer, "} title={"Helpful Hands"} date={"March 2020 - June 2020"} img={helpfulHands} google={"https://play.google.com/store/apps/details?id=com.fifteenten.helpinghands"} apple={"https://apps.apple.com/us/app/helpful-hands/id1504554846?mt=8"}>
+      
+      </Experience>
+      <Experience text={"Altfor is a mobile application that uses a unique algorithm to sort and assign personnel to tasks and work shifts based on each individuals preferences and task requirements. Built with Googles' Flutter mobile application framework which utilizes the Dart programming language and designed with modern UI/UX practices."} subtitle={"Sole Developer"} title={"Altfor"} date={"June 2020 - Present"} img={altfor} google={"https://play.google.com/store/apps/details?id=com.yuvalreiss.kyrr&hl=en_US"} apple={"https://apps.apple.com/us/app/altfor/id1520145094"}></Experience>
       <Experience
         text={
           "As a recent graduate student at the University of Maryland I got to expand and continue all the things I loved in my Bachelor’s studies. Along with taking advanced Computer Science courses, I joined the Computer Science Department's Human Computer Interaction (HCI) lab, and led a research project focused on building different translational technologies and testing their viability in different use cases. I represented the Computer Science (CS) Graduate student body as a member of the CS department's educational comittee and became the head teachers assistance overseeing approximately 30 teachers assistants each semester, the largest class at the University of Maryland, Introduction to Object Orienting Programming (CMSC 131)."
@@ -23,7 +32,11 @@ export default function Portfolio() {
         title={"University of Maryland"}
         date={"earned May 2020"}
         img={maryland}
+        google={null}
+        apple={null}
       ></Experience>
+
+     
       <Experience
         text={
           "Responsible for rewriting and migrating the Payments API within the Capital One’s iOS app. Recognized for successfully refactoring code to increase scalability and testability. Wrote the payment DELETE Cloud API, which allows users to cancel scheduled payments. Participated in designing API and Coordinator interface to handle all payment network requests in an efficient, scalable, and testable manner."
@@ -32,6 +45,8 @@ export default function Portfolio() {
         title={"Capital One"}
         date={"June 2019 - August 2019"}
         img={capone}
+        google={null}
+        apple={null}
       ></Experience>
       <Experience
         text={
@@ -41,6 +56,8 @@ export default function Portfolio() {
         title={"University of Maryland"}
         date={"earned May 2019"}
         img={maryland}
+        google={null}
+        apple={null}
       ></Experience>
       <Experience
         text={
@@ -50,6 +67,8 @@ export default function Portfolio() {
         title={"Higher Logic"}
         date={"June 2018 - August 2018"}
         img={higherLogic}
+        google={null}
+        apple={null}
       ></Experience>
       <Experience
         text={
@@ -59,6 +78,8 @@ export default function Portfolio() {
         date={"June 2017 - May 2018"}
         title={"Hughes Echostar"}
         img={hughes}
+        google={null}
+        apple={null}
       ></Experience>
     </div>
   )

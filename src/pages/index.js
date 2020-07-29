@@ -4,6 +4,7 @@ import About from "../components/about.js"
 import Portfolio from "../components/portfolio.js"
 import Contact from "../components/contact.js"
 import Footer from "../components/footer.js"
+import News from "../components/news.js"
 import Scrollspy from "react-scrollspy"
 import { Helmet } from "react-helmet"
 
@@ -19,7 +20,7 @@ export default function Home() {
       </Helmet>
 
       <div>
-        <Scrollspy items={["about", "portfolio", "contact"]}>
+        <Scrollspy items={["about", "portfolio", "news", "contact"]}>
           <Hero />
           <section id="about">
             {" "}
@@ -30,10 +31,14 @@ export default function Home() {
             {" "}
             <Portfolio />
           </section>
+          <section id="news">
+            <News />
+          </section>
           <section id="contact">
             {" "}
             <Contact />
           </section>
+         
           <Footer />
         </Scrollspy>
       </div>

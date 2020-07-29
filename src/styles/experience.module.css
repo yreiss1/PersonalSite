@@ -57,3 +57,10 @@
 .body {
   font-size: 18px;
 }
+
+.badgeRow {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: row;
+  justify-content: left;
+}
