@@ -10,7 +10,7 @@ export default function About() {
 I recently obtained a Master’s degree in <strong>Computer Science</strong> from the <strong>University of Maryland</strong>.
 <br/>
 <br/>
-Some of my other passions include anything <b>Guitar</b> related (I'm a little obsessed), almost all forms of <b>Rock & Roll</b>,<b>World History</b> , <b>Education</b>, and being outside as much as I can before I get sunburnt.
+Some of my other passions include anything <b>Guitar</b> related, almost all forms of <b>Rock & Roll</b>, <b>World History</b>, <b>Education</b>, and being outside as much as I can.
         <br />
         <br />
         Feel free to reach out if you're interested in working together or just
